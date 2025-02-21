@@ -8,7 +8,7 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <title>Contact Us</title>
+    <title>Donation</title>
   </head>
   <body>
     <nav
@@ -19,7 +19,7 @@
         <div class="flex h-20 items-center justify-between">
           <a href="/" class="flex items-center space-x-2">
             <img
-              src="../assets/logo.png"
+              src="./logo.png"
               alt="Al-Sunbula Charity Foundation"
               class="h-16 w-auto"
             />
@@ -28,29 +28,29 @@
           <!-- Desktop Navigation -->
           <div class="hidden space-x-8 md:flex">
             <a
-              href="./about.html"
-              class="text-gray-600 transition-colors hover:text-[#4CAF50]"
+              href="./Aboutus.html"
+              class="text-gray-600 transition-colors hover:text-green-600"
               >About Us</a
             >
             <a
               href="./projects.html"
-              class="text-gray-600 transition-colors hover:text-[#4CAF50]"
+              class="text-gray-600 transition-colors hover:text-green-600"
               >Our Projects</a
             >
             <a
               href="/activities"
-              class="text-gray-600 transition-colors hover:text-[#4CAF50]"
+              class="text-gray-600 transition-colors hover:text-green-600"
               >Activities</a
             >
             <a
               href="./contactUs.html"
-              class="text-gray-600 transition-colors hover:text-[#4CAF50]"
+              class="text-gray-600 transition-colors hover:text-green-600"
               >Contact</a
             >
             <button
-              class="rounded-full bg-green-500 px-6 py-2 text-white transition-colors hover:bg-[#45a049]"
+              class="rounded-full bg-green-600 px-6 py-2 text-white transition-colors hover:bg-[#45a049]"
             >
-              Donate Now
+            <a href="./donate.html"> Donate Now</a>
             </button>
           </div>
 
@@ -58,7 +58,7 @@
           <button id="menu-button" class="md:hidden">
             <svg
               id="menu-icon"
-              class="h-6 w-6 text-gray-600"
+              class="h-6 w-6 text-green-700"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -73,7 +73,7 @@
             </svg>
             <svg
               id="close-icon"
-              class="hidden h-6 w-6 text-gray-600"
+              class="hidden h-6 w-6 text-green-700"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -96,29 +96,29 @@
         >
           <div class="flex flex-col space-y-4 p-4">
             <a
-              href="/about"
-              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-gray-50"
+              href="./Aboutus.html"
+              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-green-150"
               >About Us</a
             >
             <a
-              href="./projects"
-              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-gray-50"
+              href="./projects.html"
+              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-green-150"
               >Our Projects</a
             >
             <a
               href="/activities"
-              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-gray-50"
+              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-green-150"
               >Activities</a
             >
             <a
               href="./contactUs.html"
-              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-gray-50"
+              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-green-150"
               >Contact</a
             >
             <button
-              class="w-full rounded-full bg-green-500 px-6 py-3 text-white transition-colors hover:bg-[#45a049]"
+              class="w-full rounded-full bg-green-600 px-6 py-3 text-white transition-colors hover:bg-[#45a049]"
             >
-              Donate Now
+            <a href="./donate.html"> Donate Now</a>
             </button>
           </div>
         </div>
@@ -132,8 +132,8 @@
       <div class="max-w-4xl mx-auto bg-white p-8 shadow-lg rounded-lg">
           <!-- Section Title -->
           <div class="text-center mb-8">
-              <h3 class="text-orange-500 text-lg font-semibold uppercase">Donate Now</h3>
-              <h2 class="text-3xl font-bold text-gray-800">Your Donation</h2>
+              <h3 class="text-green-700 text-lg font-semibold uppercase">Donate Now</h3>
+              <h2 class="text-3xl font-bold text-green-900">Your Donation</h2>
               <p class="text-gray-600 mt-2">Your donation is more than just financial support; it is a powerful act of kindness that drives meaningful change.  Every contribution helps provide essential resources, support impactful programs, and empower communities in need.</p>
           </div>
   
@@ -142,7 +142,7 @@
               <input type="text" name="text" class="w-full p-3 border rounded-md" placeholder="Donate Now ..." required>
   
               <!-- Donation Amount Options -->
-              <fieldset class="grid grid-cols-3 gap-4">
+              <!-- <fieldset class="grid grid-cols-3 gap-4">
                   <label class="flex items-center gap-2 border p-3 rounded-md cursor-pointer">
                       <input type="radio" name="value" value="100" checked> $100.00
                   </label>
@@ -161,11 +161,44 @@
                   <label class="flex items-center gap-2 border p-3 rounded-md cursor-pointer">
                       <input type="radio" name="value" value="600"> $600.00
                   </label>
-              </fieldset>
+              </fieldset> -->
+              <div class="mt-4 grid grid-cols-2 gap-4 md:grid-cols-3">
+                <button value="0.05"
+                  class="hover:bg-green-400 hover:text-green-600 btn1 btn bg-green-600 rounded-md px-5 py-3 text-2xl font-semibold text-white md:px-6 md:py-2"
+                >
+                $100.00
+                </button>
+                <button value="0.1"
+                  class="hover:bg-green-400 hover:text-green-600 btn2 btn bg-green-600 rounded-md px-5 py-3 text-2xl font-semibold text-white md:px-6 md:py-2"
+                >
+                $200.00
+                </button>
+                <button value="0.15"
+                  class="hover:bg-green-400 hover:text-green-600 btn3 btn bg-green-600 rounded-md px-5 py-3 text-2xl font-semibold text-white md:px-6 md:py-2"
+                >
+                $300.00
+                </button>
+                <button value="0.25"
+                  class="hover:bg-green-400 hover:text-green-600 btn4 btn bg-green-600 rounded-md px-5 py-3 text-2xl font-semibold text-white md:px-6 md:py-2"
+                >
+                $400.00
+                </button>
+                <button value="0.50"
+                  class="hover:bg-green-400 hover:text-green-600 btn5 btn bg-green-600 rounded-md px-5 py-3 text-2xl font-semibold text-white md:px-6 md:py-2"
+                >
+                $500.00
+                </button>
+  
+                <input
+                  type="number"
+                  placeholder="Custom"
+                  class="text-green-800 border-green-500 custom bg-green-300 focus:border-green-600 rounded-md px-3 py-2 text-center text-xl font-bold [appearance:textfield] focus:outline-none focus:ring-1 focus:ring-cyan-50 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+                />
+              </div>
   
               <!-- Payment Method -->
               <div>
-                  <h2 class="text-xl font-bold text-gray-800">Select Payment Method</h2>
+                  <h2 class="text-xl font-bold text-green-800">Select Payment Method</h2>
                   <div class="mt-4 space-y-2">
                       <label class="flex items-center gap-2">
                           <input type="radio" name="payment" value="Test" checked> Test Donation
@@ -178,18 +211,18 @@
   
               <!-- Personal Information -->
               <div>
-                  <h2 class="text-xl font-bold text-gray-800">Personal Info</h2>
+                  <h2 class="text-xl font-bold text-green-800">Personal Info</h2>
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                      <input type="text" name="fname" class="w-full p-3 border rounded-md" placeholder="First Name" required>
-                      <input type="text" name="lname" class="w-full p-3 border rounded-md" placeholder="Last Name" required>
-                      <input type="email" name="email" class="w-full p-3 border rounded-md" placeholder="Enter your e-mail" required>
-                      <input type="text" name="phone" class="w-full p-3 border rounded-md" placeholder="Enter your phone no." required>
-                      <textarea name="message" class="w-full p-3 border rounded-md col-span-2" rows="4" placeholder="Write message"></textarea>
+                      <input type="text" name="fname" class="col-span-2 md:col-span-1 w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="First Name" required>
+                      <input type="text" name="lname" class="col-span-2 md:col-span-1 w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Last Name" required>
+                      <input type="email" name="email" class="col-span-2 md:col-span-1 w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Enter your e-mail" required>
+                      <input type="text" name="phone" class="col-span-2 md:col-span-1 w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Enter your phone no." required>
+                      <textarea name="message" class="w-full p-3 border rounded-md col-span-2 focus:outline-none focus:ring-2 focus:ring-green-500" rows="4" placeholder="Write message"></textarea>
                   </div>
               </div>
   
               <!-- Submit Button -->
-              <button type="submit" class="w-full bg-orange-500 text-white py-3 rounded-md text-lg font-semibold hover:bg-orange-600">Donate Now</button>
+              <button type="submit" class="w-full bg-green-600 text-white py-3 rounded-md text-lg font-semibold hover:bg-green-700">Donate Now</button>
           </form>
       </div>
   </div>
@@ -204,7 +237,7 @@
           <!-- About Section -->
           <div>
             <img
-              src="../assets/logo.png"
+              src="./logo.png"
               alt="Al-Sunbula Charity Foundation"
               class="mb-4 h-16 w-auto"
             />
@@ -298,14 +331,14 @@
             <ul class="space-y-2">
               <li>
                 <a
-                  href="/about"
+                  href="./Aboutus.html"
                   class="text-gray-400 transition-colors hover:text-white"
                   >About Us</a
                 >
               </li>
               <li>
                 <a
-                  href="/projects"
+                  href="./projects.html"
                   class="text-gray-400 transition-colors hover:text-white"
                   >Our Projects</a
                 >
@@ -319,7 +352,7 @@
               </li>
               <li>
                 <a
-                  href="/contact"
+                  href="./contactUs.html"
                   class="text-gray-400 transition-colors hover:text-white"
                   >Contact</a
                 >
@@ -376,7 +409,7 @@
               />
               <button
                 type="submit"
-                class="rounded-lg bg-[#4CAF50] px-4 py-2 text-white transition-colors hover:bg-[#45a049]"
+                class="rounded-lg bg-green-600 px-4 py-2 text-white transition-colors hover:bg-[#45a049]"
               >
                 <svg
                   class="h-5 w-5"
@@ -402,7 +435,7 @@
           <div
             class="flex flex-col items-center justify-between gap-4 md:flex-row"
           >
-            <p class="text-gray-400">
+            <p class="text-gray-400 text-center md:text-left">
               © 2024 Al-Sunbula Charity Foundation. All rights reserved.
             </p>
             <div class="flex gap-4 text-gray-400">
