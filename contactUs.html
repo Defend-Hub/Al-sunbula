@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/output.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav
+      id="navbar"
+      class="fixed z-50 w-full bg-white transition-all duration-300"
+    >
+      <div class="container mx-auto px-4">
+        <div class="flex h-20 items-center justify-between">
+          <a href="/" class="flex items-center space-x-2">
+            <img
+              src="../assets/logo.png"
+              alt="Al-Sunbula Charity Foundation"
+              class="h-16 w-auto"
+            />
+          </a>
+
+          <!-- Desktop Navigation -->
+          <div class="hidden space-x-8 md:flex">
+            <a
+              href="./about.html"
+              class="text-gray-600 transition-colors hover:text-[#4CAF50]"
+              >About Us</a
+            >
+            <a
+              href="./projects.html"
+              class="text-gray-600 transition-colors hover:text-[#4CAF50]"
+              >Our Projects</a
+            >
+            <a
+              href="/activities"
+              class="text-gray-600 transition-colors hover:text-[#4CAF50]"
+              >Activities</a
+            >
+            <a
+              href="./contactUs.html"
+              class="text-gray-600 transition-colors hover:text-[#4CAF50]"
+              >Contact</a
+            >
+            <button
+              class="rounded-full bg-green-600 px-6 py-2 text-white transition-colors hover:bg-[#45a049]"
+            >
+              Donate Now
+            </button>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button id="menu-button" class="md:hidden">
+            <svg
+              id="menu-icon"
+              class="h-6 w-6 text-gray-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+            <svg
+              id="close-icon"
+              class="hidden h-6 w-6 text-gray-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div
+          id="mobile-menu"
+          class="animate-fade-in absolute left-0 right-0 top-20 hidden rounded-b-2xl bg-white shadow-lg md:hidden"
+        >
+          <div class="flex flex-col space-y-4 p-4">
+            <a
+              href="/about"
+              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-gray-50"
+              >About Us</a
+            >
+            <a
+              href="./projects"
+              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-gray-50"
+              >Our Projects</a
+            >
+            <a
+              href="/activities"
+              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-gray-50"
+              >Activities</a
+            >
+            <a
+              href="./contactUs.html"
+              class="block rounded-lg px-4 py-2 text-gray-600 transition-colors hover:bg-gray-50"
+              >Contact</a
+            >
+            <button
+              class="w-full rounded-full bg-green-500 px-6 py-3 text-white transition-colors hover:bg-[#45a049]"
+            >
+              Donate Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="h-96 bg-green-500">
+      <h1 class="text-center z-99">CONTACT US</h1>
+    </div>
+
+    <!-- Contact Info Section Start -->
+    <div class="bg-white py-12">
+      <div class="container mx-auto px-6">
+        <div class="rounded-lg bg-gray-50 p-8 shadow-lg">
+          <div class="grid grid-cols-1 gap-6 text-center md:grid-cols-3">
+            <!-- Contact Us -->
+            <div class="flex flex-col items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-green-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92V19a2 2 0 0 1-2 2c-9.94 0-18-8.06-18-18a2 2 0 0 1 2-2h2.08a2 2 0 0 1 2 1.72 13.36 13.36 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L6.62 9.62a16 16 0 0 0 7.76 7.76l1.95-1.95a2 2 0 0 1 2.11-.45 13.36 13.36 0 0 0 2.81.7 2 2 0 0 1 1.72 2z"/>
+              </svg>
+              <h3 class="text-lg font-semibold text-gray-900 py-2">Contact Us</h3>
+              <p class="text-gray-500">
+                <a href="tel:+123456789">+234 808 888 8388</a>
+              </p>
+              <p class="text-gray-500">
+                <a href="tel:+123456789">+234 7081333321</a>
+              </p>
+            </div>
+
+            <!-- E-Mail Us -->
+            <div
+              class="flex flex-col items-center border-l border-r border-gray-300 px-6"
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-green-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            
+              <h3 class="text-lg font-semibold text-gray-900 py-2">E-Mail Us</h3>
+              <p class="text-gray-500">
+                <a href="mailto:example@mail.com">example@mail.com</a>
+              </p>
+              <p class="text-gray-500">
+                <a href="mailto:domainname@gmail.com">domainname@gmail.com</a>
+              </p>
+            </div>
+
+            <!-- Location -->
+            <div class="flex flex-col items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-green-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                <circle cx="12" cy="9" r="3"/>
+              </svg>
+              
+              <h3 class="text-lg font-semibold text-gray-900 py-2">Location</h3>
+              <p class="text-gray-500">12345 Unity Avenue Suite 100</p>
+              <p class="text-gray-500">Springfield, USA 54321</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Info Section End -->
+
+    <!-- Contact Form Section Start -->
+    <div class="bg-gray-100 py-12">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col items-center lg:flex-row">
+          <!-- Google Map -->
+          <div class="order-2 w-full lg:order-1 lg:w-1/2">
+            <div class="h-96 w-full">
+              <iframe
+                class="h-full w-full rounded-lg shadow-lg"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div
+            class="order-1 w-full rounded-lg bg-white p-8 shadow-lg lg:order-2 lg:w-1/2"
+          >
+            <div class="mb-6 text-center">
+              <h3 class="text-lg font-semibold uppercase text-green-700">
+                Contact Us
+              </h3>
+              <h2 class="text-2xl font-bold text-green-900">Get in Touch</h2>
+            </div>
+
+            <form id="contactForm" action="#" method="POST">
+              <div class="grid grid-cols gap-4 md:grid-cols-2">
+                <div class="col-span-2 md:col-span-1 mb-4">
+                  <input
+                    type="text" 
+                    name="fname"
+                    id="fname"
+                    placeholder="First Name"
+                    class="w-full rounded-md border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"
+                  />
+                </div>
+
+                <div class="col-span-2 md:col-span-1 mb-4">
+                  <input
+                    type="text"
+                    name="lname"
+                    id="lname"
+                    placeholder="Last Name"
+                    class="w-full rounded-md border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"
+                  />
+                </div>
+
+                <div class="col-span-2 mb-4">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your Email"
+                    class="w-full rounded-md border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"
+                  />
+                </div>
+
+                <div class="col-span-2 mb-4">
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter your Phone No."
+                    class="w-full rounded-md border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"
+                  />
+                </div>
+
+                <div class="col-span-2 mb-4">
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="4"
+                    placeholder="Write your Message"
+                    class="w-full rounded-md border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"
+                  ></textarea>
+                </div>
+
+                <div class="col-span-2">
+                  <button
+                    type="submit"
+                    class="w-full rounded-md bg-green-600 py-3 text-lg font-semibold text-white transition duration-300 hover:bg-green-700"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Form Section End -->
+
+    <!-- footer section strat -->
+    <footer class="mt-10 bg-gray-900 text-white">
+      <div class="container mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
+          <!-- About Section -->
+          <div>
+            <img
+              src="./logo.png"
+              alt="Al-Sunbula Charity Foundation"
+              class="mb-4 h-16 w-auto"
+            />
+            <p class="mb-4 text-gray-400">
+              Dedicated to making a positive impact in our community through
+              sustainable charitable initiatives.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 transition-colors hover:bg-[#4CAF50]"
+              >
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M18 2h-3a4 4 0 00-4 4v3H8v4h3v8h4v-8h3l1-4h-4V6a1 1 0 011-1h3z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 transition-colors hover:bg-[#4CAF50]"
+              >
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0016 3a4.48 4.48 0 00-4.48 4.48c0 .35.04.7.12 1.03A12.94 12.94 0 013 4.48a4.48 4.48 0 001.39 5.98A4.48 4.48 0 012 9.7v.05a4.48 4.48 0 003.6 4.39 4.48 4.48 0 01-2.02.08 4.48 4.48 0 004.19 3.12A9 9 0 012 19.54a12.94 12.94 0 007 2.05c8.4 0 13-6.96 13-13v-.59A9.35 9.35 0 0023 3z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 transition-colors hover:bg-[#4CAF50]"
+              >
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 11.5a8.38 8.38 0 01-2.357.646 4.15 4.15 0 001.824-2.292 8.27 8.27 0 01-2.605.995 4.13 4.13 0 00-7.034 3.76A11.72 11.72 0 013 10.5a4.13 4.13 0 001.28 5.5 4.1 4.1 0 01-1.872-.52v.05a4.13 4.13 0 003.31 4.05 4.15 4.15 0 01-1.864.07 4.13 4.13 0 003.86 2.87A8.28 8.28 0 013 19.5a11.72 11.72 0 006.29 1.84c7.55 0 11.68-6.25 11.68-11.68 0-.18-.01-.36-.02-.54A8.36 8.36 0 0021 11.5z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 transition-colors hover:bg-[#4CAF50]"
+              >
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 10l4.553-2.276A2 2 0 0020 6V4a2 2 0 00-1.447-1.894L15 0M9 10L4.447 7.724A2 2 0 014 6V4a2 2 0 011.447-1.894L9 0m6 10v10a2 2 0 01-2 2H9a2 2 0 01-2-2V10m6 0H9"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h3 class="mb-4 text-lg font-bold">Quick Links</h3>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="/about"
+                  class="text-gray-400 transition-colors hover:text-white"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/projects"
+                  class="text-gray-400 transition-colors hover:text-white"
+                  >Our Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/activities"
+                  class="text-gray-400 transition-colors hover:text-white"
+                  >Activities</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                  class="text-gray-400 transition-colors hover:text-white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Programs -->
+          <div>
+            <h3 class="mb-4 text-lg font-bold">Our Programs</h3>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 transition-colors hover:text-white"
+                  >Education Support</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 transition-colors hover:text-white"
+                  >Clean Water Initiative</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 transition-colors hover:text-white"
+                  >Food Security</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 transition-colors hover:text-white"
+                  >Healthcare Access</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <div>
+            <h3 class="mb-4 text-lg font-bold">Newsletter</h3>
+            <p class="mb-4 text-gray-400">
+              Subscribe to our newsletter for updates and news.
+            </p>
+            <form class="flex gap-2">
+              <input
+                type="email"
+                placeholder="Your email"
+                class="flex-1 rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 focus:border-[#4CAF50] focus:outline-none"
+              />
+              <button
+                type="submit"
+                class="rounded-lg bg-green-600 px-4 py-2 text-white transition-colors hover:bg-[#45a049]"
+              >
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M16 12H8m0 0l4-4m-4 4l4 4"
+                  ></path>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="mt-12 border-t border-gray-800 pt-8">
+          <div
+            class="flex flex-col items-center justify-between gap-4 md:flex-row"
+          >
+            <p class="text-gray-400">
+              © 2024 Al-Sunbula Charity Foundation. All rights reserved.
+            </p>
+            <div class="flex gap-4 text-gray-400">
+              <a href="#" class="transition-colors hover:text-white"
+                >Privacy Policy</a
+              >
+              <a href="#" class="transition-colors hover:text-white"
+                >Terms of Service</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end  -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      const navbar = document.getElementById("navbar");
+      const menuButton = document.getElementById("menu-button");
+      const menuIcon = document.getElementById("menu-icon");
+      const closeIcon = document.getElementById("close-icon");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 20) {
+          navbar.classList.add("bg-white/90", "backdrop-blur-md", "shadow-sm");
+          navbar.classList.remove("bg-transparent");
+        } else {
+          navbar.classList.add("bg-transparent");
+          navbar.classList.remove(
+            "bg-white/90",
+            "backdrop-blur-md",
+            "shadow-sm",
+          );
+        }
+      });
+
+      menuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+        menuIcon.classList.toggle("hidden");
+        closeIcon.classList.toggle("hidden");
+      });
+      // impact section counter
+      const stats = [
+        { id: "students-educated", value: 2500 },
+        { id: "wells-installed", value: 150 },
+        { id: "marriages-sponsored", value: 1000 },
+        { id: "families-fed", value: 5000 },
+      ];
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              stats.forEach((stat) => {
+                const element = document.getElementById(stat.id);
+                let count = 0;
+                const increment = stat.value / 125; // 2000ms / 16ms (60fps)
+                const interval = setInterval(() => {
+                  count += increment;
+                  if (count >= stat.value) {
+                    clearInterval(interval);
+                    element.textContent = `${stat.value.toLocaleString()}+`;
+                  } else {
+                    element.textContent = `${Math.floor(
+                      count,
+                    ).toLocaleString()}+`;
+                  }
+                }, 16);
+              });
+              observer.disconnect();
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      observer.observe(document.getElementById("impact-counter"));
+    </script>
+    <script>
+      AOS.init({
+        duration: 1000, // Animation duration in milliseconds
+        easing: "ease-in-out", // Easing function
+        once: true, // Whether animation should happen only once while scrolling
+      });
+    </script>
+  </body>
+</html>
